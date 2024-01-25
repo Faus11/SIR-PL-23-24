@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(107,104,104,1) 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px; /* Add padding for better spacing */
+    color: white; /* Set text color to white for better contrast */
+    font-family: 'Ubuntu', sans-serif; /* Use a clean and widely supported font */
+    font-size: 18px; /* Adjust font size for better readability */
+}
+
+/* Style the navigation links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; /* Add margin between links for spacing */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+    color: #66c2ff; /* Change color on hover */
+}
+
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.login-btn {
+    margin-left: auto;
+}
+
+.login-btn a {
+    color: #ffffff !important;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* About Section */
+.about {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(107,104,104,1) 100%);
+    color: #ffffff;
+}
+
+/* How It Works Section */
+.how-it-works {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(107,104,104,1) 0%, rgba(0,0,0,1) 100%);
+    color: #ffffff;
+}
+
+/* Features Section */
+.features {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(107,104,104,1) 100%);
+    color: #ffffff;
+}
+
+/* Team Section */
+.team {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(107,104,104,1) 0%, rgba(0,0,0,1) 100%);
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(107,104,104,1) 0%, rgba(0,0,0,1) 100%);
+    color: #ffffff;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.separador {
+    height: 10px; /* Altura da barra */
+    background: radial-gradient(circle, rgb(146, 142, 144) 0%, rgb(0, 0, 0) 100%);
+    width: 100%; /* Largura total */
+  }

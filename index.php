@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/infra/middlewares/middleware-not-authenticated.php';
-// require_once __DIR__ . './setupdatabase.php';
+// require_once __DIR__ . '/setupdatabase.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +18,8 @@ require_once __DIR__ . '/infra/middlewares/middleware-not-authenticated.php';
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.html">
-            <img src="imagens\logo-icon.png" alt="FrameMinds Icon" width="35" height="35">
+        <a class="navbar-brand" href="./index.html">
+            <img src="assets/imagens/logo-icon.png" alt="FrameMinds Icon" width="35" height="35">
             FrameMinds
         </a>
 
@@ -41,7 +41,7 @@ require_once __DIR__ . '/infra/middlewares/middleware-not-authenticated.php';
                 </li>
             </ul>
             <div class="login-btn">
-                <a class="btn btn-secondary" href="login.html">Login</a>
+                <a class="btn btn-secondary" href="pages/public/signin.php">Login</a>
             </div>
         </div>
     </nav>
@@ -54,18 +54,18 @@ require_once __DIR__ . '/infra/middlewares/middleware-not-authenticated.php';
             <div class="carousel-inner">
                 <!-- Slide 1 -->
                 <div class="carousel-item active"
-                    style="background-image: url('imagens/background-movie.jpg'); background-size: cover; background-position: center center; height: 100vh;">
+                    style="background-image: url('assets/imagens/background-movie.jpg'); background-size: cover; background-position: center center; height: 100vh;">
                     <div
                         class="container text-white d-flex flex-column justify-content-center align-items-center h-100">
                         <h1 class="display-4">Discover, Share, and Manage Your Favorites</h1>
                         <p class="lead">Your all-in-one solution for film and series management.</p>
-                        <a href="register.html" class="btn btn-warning btn-lg">Sign Up Now</a>
+                        <a href="pages/public/signup.php" class="btn btn-warning btn-lg">Sign Up Now</a>
                     </div>
                 </div>
 
                 <!-- Additional Slides (Add more as needed) -->
                 <div class="carousel-item"
-                    style="background-image: url('imagens/another-background-movie.jpg'); background-size: cover; background-position: center center; height: 100vh;">
+                    style="background-image: url('assets/imagens/another-background-movie.jpg'); background-size: cover; background-position: center center; height: 100vh;">
                     <div
                         class="container text-white d-flex flex-column justify-content-center align-items-center h-100">
                         <h1 class="display-4">Discover, Share, and Manage Your Favorites</h1>
@@ -95,7 +95,7 @@ require_once __DIR__ . '/infra/middlewares/middleware-not-authenticated.php';
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <!-- Add your image here with a specific width -->
-                    <img src="imagens\about-us-movie.png" alt="About Us Image" class="img-fluid rounded"
+                    <img src="assets/imagens/about-us-movie.png" alt="About Us Image" class="img-fluid rounded"
                         style="max-width: 80%; height: auto;">
                 </div>
             </div>
@@ -167,17 +167,17 @@ require_once __DIR__ . '/infra/middlewares/middleware-not-authenticated.php';
 <div class="row justify-content-center mt-2">
     <div class="col-md-4">
         <a href="https://www.facebook.com/jose.faus.104" target="_blank">
-            <img src="imagens\fb-logo.png" alt="Facebook" class="img-fluid logo" width="30" height="30">
+            <img src="assets/imagens/fb-logo.png" alt="Facebook" class="img-fluid logo" width="30" height="30">
         </a>
     </div>
     <div class="col-md-4">
         <a href="https://github.com/Faus11/SIR-TP1" target="_blank">
-            <img src="imagens\github-logo.png" alt="GitHub" class="img-fluid logo" width="30" height="30">
+            <img src="assets/imagens/github-logo.png" alt="GitHub" class="img-fluid logo" width="30" height="30">
         </a>
     </div>
     <div class="col-md-4">
         <a href="https://www.instagram.com/josefaus_03/" target="_blank">
-            <img src="imagens\instagram-logo.png" alt="Instagram" class="img-fluid logo" width="30" height="30">
+            <img src="assets/imagens/instagram-logo.png" alt="Instagram" class="img-fluid logo" width="30" height="30">
         </a>
     </div>
 </div>

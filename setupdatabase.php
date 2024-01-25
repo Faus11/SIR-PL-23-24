@@ -5,7 +5,7 @@ require __DIR__ . '/infra/db/connection.php';
 #DROP TABLE
 $pdo->exec('DROP TABLE IF EXISTS users;');
 
-echo 'table users deleted!' . PHP_EOL;
+
 
 #CREATE TABLE
 $pdo->exec(
@@ -20,7 +20,7 @@ $pdo->exec(
     password varchar(200)	);'
 );
 
-echo 'Tabela users created!' . PHP_EOL;
+
 
 #DEFAULT USER TO ADD
 $user = [
@@ -70,4 +70,3 @@ $success = $PDOStatement->execute([
     ':password' => $user['password']
 ]);
 
-echo 'Default user created!';
